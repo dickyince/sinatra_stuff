@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require './modularBase'
+require_relative 'modularBase'
 
 class HomeController < ModularBase
   set :bind, '0.0.0.0'
